@@ -9,7 +9,7 @@ module ExpensesTracker
     end
 
     get '/expenses/:date' do
-      JSON.generate([])
+      JSON.generate([{test: 1},{test:2}])
     end
 
   end
