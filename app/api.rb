@@ -3,5 +3,14 @@ require 'sinatra/base'
 
 module ExpensesTracker
   class API < Sinatra::Base
+
+    post '/expenses' do
+      JSON.generate({expenses_id: 3})
+    end
+
+    get '/expenses/:date' do
+      JSON.generate([])
+    end
+
   end
 end
