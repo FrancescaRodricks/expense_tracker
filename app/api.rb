@@ -12,5 +12,6 @@ module ExpensesTracker
       JSON.generate([{test: 1},{test:2}])
     end
 
+
   end
 end
