@@ -11,7 +11,5 @@ module ExpensesTracker
     get '/expenses/:date' do
       JSON.generate([{test: 1},{test:2}])
     end
-
-
   end
 end
